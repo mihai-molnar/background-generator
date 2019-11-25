@@ -17116,7 +17116,8 @@
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
 },{}],2:[function(require,module,exports){
 var _ = require ("lodash");
-console.log(_);
+var array = [1,2,3,4,5,6,7];
+console.log ("Answer:", _.without(array, 3));
 
 //Define the variables
 var css = document.querySelector("h3"); //h3
