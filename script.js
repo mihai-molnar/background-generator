@@ -1,3 +1,6 @@
+var _ = require ("lodash");
+console.log(_);
+
 //Define the variables
 var css = document.querySelector("h3"); //h3
 var color1 = document.querySelector(".color1"); //input color 1
